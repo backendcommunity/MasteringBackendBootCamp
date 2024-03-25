@@ -9,7 +9,7 @@ export default {
 <template>
     <section class="flex flex-col lg:flex-row lg:py-40 py-16 items-start gap-8   lg:px-32">
         <img alt="logo" class=" w-14 lg:w-32" src="../assets/quote.svg" />
-        <div class="flex flex-col gap-16 ">
+        <div class="flex flex-col lg:gap-16 gap-8 ">
             <h1 class=" text-2xl lg:text-6xl">I strongly recommend exploring Mastering Backend as a resource for your
                 personal and/or
                 professional

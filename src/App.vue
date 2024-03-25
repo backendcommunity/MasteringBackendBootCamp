@@ -2,11 +2,12 @@
 import HeroSection from './components/HeroSection.vue';
 import FirstSection from './components/FirstSection.vue';
 import CountDown from './components/CountDown.vue';
-
+import BecomeSection from './components/BecomeSection.vue';
+import WhatYouLearn from './components/WhatYouLearn.vue';
 
 
 export default {
-  components: { HeroSection, FirstSection, CountDown }
+  components: { HeroSection, FirstSection, CountDown, BecomeSection, WhatYouLearn }
 }
 </script>
 <template>
@@ -17,7 +18,8 @@ export default {
     <hero-section />
     <first-section />
     <count-down />
-
+    <become-section />
+    <WhatYouLearn />
   </main>
 </template>
 

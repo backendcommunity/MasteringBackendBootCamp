@@ -41,7 +41,7 @@ export default {
 
         <div class="inline">
             <button
-                class="lg:px-12 px-6 rounded-xl py-3 lg py-4:lg:py-6 font-semibold bg-[#242099] text-white inline text-2xl">
+                class="lg:px-12 px-6 rounded-xl py-3  lg:py-6 font-semibold bg-[#242099] text-white inline text-2xl">
                 Enroll Now
             </button>
         </div>
