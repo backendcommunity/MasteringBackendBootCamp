@@ -4,10 +4,13 @@ import FirstSection from './components/FirstSection.vue';
 import CountDown from './components/CountDown.vue';
 import BecomeSection from './components/BecomeSection.vue';
 import WhatYouLearn from './components/WhatYouLearn.vue';
+import LimitedSlot from './components/LimitedSlot.vue';
+import LearnSection from './components/LearnSection.vue';
+
 
 
 export default {
-  components: { HeroSection, FirstSection, CountDown, BecomeSection, WhatYouLearn }
+  components: { HeroSection, FirstSection, CountDown, BecomeSection, WhatYouLearn, LimitedSlot, LearnSection, }
 }
 </script>
 <template>
@@ -20,6 +23,9 @@ export default {
     <count-down />
     <become-section />
     <WhatYouLearn />
+    <limited-slot />
+
+    <learn-section />
   </main>
 </template>
 
