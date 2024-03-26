@@ -6,7 +6,7 @@ export default {
 }
 </script>
 <template>
-    <section class="lg:grid  flex flex-col gap-10 grid-cols-2 my-10  lg:m-24 lg:p-10 rounded-2xl bg-white ">
+    <section class="lg:grid  flex flex-col gap-10 grid-cols-2 my-10  lg:m-16 lg:p-10 rounded-2xl bg-white ">
 
         <div class="col-span-1 hidden lg:flex">
             <img alt="logo" class=" lg:w-96 w-52" src="../assets/ball.svg" />
