@@ -8,11 +8,13 @@ import LimitedSlot from './components/LimitedSlot.vue';
 import LearnSection from './components/LearnSection.vue';
 import CertificateSecttion from './components/CertificateSecttion.vue';
 import AdvantageSection from './components/AdvantageSection.vue';
+import TestimonialsSection from './components/TestimonialSection.vue';
+
 
 
 
 export default {
-  components: { HeroSection, FirstSection, CountDown, BecomeSection, WhatYouLearn, LimitedSlot, LearnSection, CertificateSecttion, AdvantageSection, }
+  components: { HeroSection, FirstSection, CountDown, BecomeSection, WhatYouLearn, LimitedSlot, LearnSection, CertificateSecttion, AdvantageSection, TestimonialsSection, }
 }
 </script>
 <template>
@@ -30,6 +32,7 @@ export default {
     <certificate-secttion />
     <limited-slot />
     <advantage-section />
+    <testimonials-section />
   </main>
 </template>
 
