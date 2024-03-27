@@ -15,7 +15,7 @@ export default {
             <p class="text-center lg:text-3xl  font-semibold">Don't wait! Enroll now and get instant access to
                 the course
                 materials to
-                start learning in minutes.</p>
+                start learning in minutes</p>
         </div>
 
         <div class=" grid grid-cols-4 gap-2 lg:gap-10 w-full">
