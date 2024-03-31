@@ -3,25 +3,34 @@ export default {
     name: "CountDown",
     data() {
         return {
-            days: 10,
+            days: 24,
             hours: 0,
             minutes: 0,
             seconds: 0
         };
     },
     mounted() {
-        // Set the target date for the countdown (replace this with your desired end date)
-        const targetDate = new Date('2024-04-01T10:00:00');
-
         const updateCountdown = () => {
-            const now = new Date().getTime();
-            const difference = targetDate - now;
-
-            if (difference > 0) {
-                this.days = Math.floor(difference / (1000 * 60 * 60 * 24));
-                this.hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                this.minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-                this.seconds = Math.floor((difference % (1000 * 60)) / 1000);
+            if (this.days > 0 || this.hours > 0 || this.minutes > 0 || this.seconds > 0) {
+                if (this.seconds === 0) {
+                    if (this.minutes === 0) {
+                        if (this.hours === 0) {
+                            this.days--;
+                            this.hours = 23;
+                            this.minutes = 59;
+                            this.seconds = 59;
+                        } else {
+                            this.hours--;
+                            this.minutes = 59;
+                            this.seconds = 59;
+                        }
+                    } else {
+                        this.minutes--;
+                        this.seconds = 59;
+                    }
+                } else {
+                    this.seconds--;
+                }
             } else {
                 clearInterval(interval);
                 // Handle countdown completion if needed
