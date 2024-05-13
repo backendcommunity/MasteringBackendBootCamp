@@ -1,72 +1,107 @@
 <script lang="ts">
-
 export default {
-    name: 'AdvantageSection'
+  name: 'AdvantageSection'
 }
-
 </script>
 
 
 <template>
-    <section class="flex flex-col items-center  py-20 lg:px-16  gap-20 ">
-        <div class="w-full lg:w-[600px] flex flex-col gap-6">
-            <h1 class="font-bold text-2xl lg:text-4xl text-center">Our Advantage</h1>
-            <p class="lg:text-xl text-center">BSed interdum auctor risus, sed fringilla purus lacinia ac. Quisque ut
-                ipsum nec erat
-                porttitor finibus eget vel turpis. Phasellus volutpat purus a enim</p>
+  <section class="mb-52 flex flex-col items-center my-20 lg:px-16 gap-20">
+    <div class="w-full flex flex-col gap-6">
+      <h3 class="font-bold text-2xl lg:text-6xl text-center">The Best Value on The Market</h3>
+      <p class="lg:text-xl text-center">
+        The cost of enrollment is a competitive value to a computer science degree or other
+        bootcamps.
+      </p>
+    </div>
+
+    <main class="flex lg:grid grid-cols-3 flex-col gap-10 items-center justify-center w-full">
+      <div class="col-span-2 flex flex-col lg:grid grid-cols-2 gap-10 h-fit">
+        <div
+          class="col-span-1 flex flex-col gap-8 p-5 border border-black rounded-2xl bg-white py-10"
+        >
+          <div class="flex flex-col gap-5">
+            <h3 class="font-semibold text-2xl">CS Degree</h3>
+
+            <ul class="list-disc flex flex-col gap-3 pl-5">
+              <li>Lifetime access to the course content and materials.</li>
+              <li>Regular course updates and new content.</li>
+              <li>Exclusive access to a supportive online community.</li>
+              <li>Regular course updates and new content.</li>
+              <li>Exclusive access to a supportive online community.</li>
+              <li>Regular course updates and new content.</li>
+            </ul>
+
+            <div class="flex gap-5 flex-col">
+              <div class="border-b py-2">
+                <p class="py-2 text-gray-600">Price</p>
+                <p class="text-3xl">$70k-$150k</p>
+              </div>
+
+              <div class="border-b py-2">
+                <p class="py-2 text-gray-600">Time Commitment</p>
+                <p class="text-3xl">4+ Years</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-1 flex flex-col gap-8 p-5 border border-black rounded-2xl bg-white py-10"
+        >
+          <div class="flex flex-col gap-5">
+            <h3 class="font-semibold text-2xl">Other Bootcamps</h3>
+
+            <ul class="list-disc flex flex-col gap-3 pl-5">
+              <li>Lifetime access to the course content and materials.</li>
+              <li>Regular course updates and new content.</li>
+              <li>Exclusive access to a supportive online community.</li>
+              <li>Regular course updates and new content.</li>
+              <li>Exclusive access to a supportive online community.</li>
+              <li>Regular course updates and new content.</li>
+            </ul>
+
+            <div class="flex gap-5 flex-col">
+              <div class="border-b py-2">
+                <p class="py-2 text-gray-600">Price</p>
+                <p class="text-3xl">$20k-$40k</p>
+              </div>
+
+              <div class="border-b py-2">
+                <p class="py-2 text-gray-600">Time Commitment</p>
+                <p class="text-3xl">6-12 Months</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-span-1 flex flex-col gap-8 p-5 border border-black rounded-2xl text-white py-10 bg-gradient-to-tr to-[#322EB0] from-[#8F03A1]"
+      >
+        <div class="flex flex-col gap-5">
+          <h3 class="font-semibold text-2xl">Backend Bootcamp</h3>
+          <ul class="list-disc flex flex-col gap-3 pl-5">
+            <li>Lifetime access to the course content and materials.</li>
+            <li>Regular course updates and new content.</li>
+            <li>Exclusive access to a supportive online community.</li>
+            <li>Regular course updates and new content.</li>
+            <li>Exclusive access to a supportive online community.</li>
+            <li>Regular course updates and new content.</li>
+          </ul>
         </div>
 
-        <main class="flex lg:grid grid-cols-3 flex-col gap-10 items-center justify-center w-full
-        ">
-            <div class=" col-span-2 flex flex-col lg:grid grid-cols-2 gap-10 h-fit ">
-                <div class="col-span-1  flex flex-col gap-8 p-5 border border-black rounded-2xl bg-white py-10">
-                    <div class="flex flex-col gap-5">
-                        <h1 class="font-semibold text-2xl">Other Courses</h1>
-                        <ul class="list-disc flex flex-col gap-3 pl-5">
-                            <li>Lifetime access to the course content and materials.</li>
-                            <li>Regular course updates and new content.</li>
-                            <li>Exclusive access to a supportive online community.</li>
-                        </ul>
-                    </div>
-                    <b class="font font-extrabold text-4xl">
-                        $3000
-                    </b>
-                </div>
-                <div class="col-span-1   flex flex-col gap-8 p-5 border border-black rounded-2xl bg-white py-10">
-                    <div class="flex flex-col gap-5">
-                        <h1 class="font-semibold text-2xl">Other Courses</h1>
-                        <ul class="list-disc flex flex-col gap-3 pl-5">
-                            <li>Lifetime access to the course content and materials.</li>
-                            <li>Regular course updates and new content.</li>
-                            <li>Exclusive access to a supportive online community.</li>
-                        </ul>
-                    </div>
-                    <b class="font font-extrabold text-4xl">
-                        $3000
-                    </b>
-                </div>
-            </div>
+        <div class="flex gap-5 flex-col">
+          <div class="border-b py-2">
+            <p class="py-2 text-gray-200">Price</p>
+            <p class="text-3xl">$500-<span class="text-xl px-1 line-through">$1000</span></p>
+          </div>
 
-
-
-            <div
-                class="col-span-1   flex flex-col gap-8 p-5 border border-black rounded-2xl text-white py-10  bg-gradient-to-tr to-[#322EB0] from-[#8F03A1]">
-                <div class="flex flex-col gap-5">
-                    <h1 class="font-semibold text-2xl">Other Courses</h1>
-                    <ul class="list-disc flex flex-col gap-3 pl-5">
-                        <li>Lifetime access to the course content and materials.</li>
-                        <li>Regular course updates and new content.</li>
-                        <li>Exclusive access to a supportive online community.</li>
-                        <li>Regular course updates and new content.</li>
-                        <li>Exclusive access to a supportive online community.</li>
-                        <li>Regular course updates and new content.</li>
-
-                    </ul>
-                </div>
-                <b class="font font-extrabold text-4xl">
-                    $300
-                </b>
-            </div>
-        </main>
-    </section>
+          <div class="border-b py-2">
+            <p class="py-2 text-gray-200">Time Commitment</p>
+            <p class="text-3xl">1-6 Months</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
 </template>

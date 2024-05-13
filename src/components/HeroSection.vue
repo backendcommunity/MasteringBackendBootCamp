@@ -1,32 +1,35 @@
 <script lang="ts">
-
 export default {
-
-    name: "HeroSection"
+  name: 'HeroSection'
 }
 </script>
 
 <template>
-    <section class=" flex flex-col md:grid grid-cols-2 gap-16 md:pt-10 pt-5">
-        <div class="col-span-1  flex flex-col gap-4 lg:justify-between">
-            <div class="flex flex-col gap-4 lg:gap-8">
-                <h1 class="lg:text-5xl text-2xl font-bold">Neque porro quisquam
-                    est qui dolorem ipsum6
-                </h1>
-                <p class=" lg:text-2xl">Our comprehensive backend development course
-                    will equip you with the skills to take your coding
-                    career to the next level.
-                </p>
-            </div>
-            <div class="inline">
-                <button class="lg:px-10 px-6 rounded-xl py-3 lg:py-6 font-semibold bg-[#242099] text-white inline">
-                    Enroll Now
-                </button>
-            </div>
-        </div>
-        <div class="col-span-1 flex flex-col justify-end items-end">
-            <img alt="se" class="w-[600px]" src="../assets/vid.svg" />
-        </div>
+  <section class="py-10 mb-52">
+    <ul class="text-red-500 font-bold py-4 list-disc pl-10 lg:pl-4">
+      <li>50% OFF LAUNCH SALE LIMITED TIME</li>
+    </ul>
 
-    </section>
+    <div class="flex flex-col lg:flex-row w-full items-center gap-5">
+      <div class="flex flex-col items-center jusify-center lg:justify-start lg:items-baseline">
+        <div class="flex w-4/5 flex-col items-center jusify-center">
+          <h1 class="lg:text-6xl text-2xl font-bold">Become A Great Backend Engineer</h1>
+          <p class="lg:text-2xl py-5">
+            Our comprehensive backend engineeing bootcamp will equip you with the skills to take
+            your backend engineeing career to the next level.
+          </p>
+        </div>
+        <div class="inline py-5">
+          <button
+            class="lg:px-20 px-6 rounded-xl py-3 lg:py-6 font-semibold bg-[#242099] text-white inline"
+          >
+            Enroll Now
+          </button>
+        </div>
+      </div>
+      <div class="w-full border-4 bg-gray-800 shadow-lg rounded-3xl p-2 border-gray-500">
+        <img alt="se" class="w-full" src="../assets/vid.svg" />
+      </div>
+    </div>
+  </section>
 </template>
