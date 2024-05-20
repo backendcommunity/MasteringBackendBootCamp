@@ -8,7 +8,7 @@ export default {
 <template>
   <section class="mb-52 flex flex-col items-center my-20 lg:px-16 gap-20">
     <div class="w-full flex flex-col gap-6">
-      <h3 class="font-bold text-2xl lg:text-6xl text-center">The Best Value on The Market</h3>
+      <h2 class="font-bold text-2xl lg:text-6xl text-center">The Best Value on The Market</h2>
       <p class="lg:text-xl text-center">
         The cost of enrollment is a competitive value to a computer science degree or other
         bootcamps.

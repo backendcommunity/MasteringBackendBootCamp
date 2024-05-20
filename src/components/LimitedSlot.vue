@@ -4,7 +4,10 @@ export default {
 }
 </script>
 <template>
-  <section class="mb-52 lg:grid flex flex-col gap-10 grid-cols-2 lg:p-10 rounded-2xl bg-white">
+  <section
+    id="pricing"
+    class="mb-52 lg:grid flex flex-col gap-10 grid-cols-2 lg:p-10 rounded-2xl bg-white"
+  >
     <div class="col-span-1 hidden lg:flex">
       <img alt="logo" class="lg:w-96 w-52" src="../assets/ball.svg" />
     </div>
@@ -23,12 +26,15 @@ export default {
         <span class="text-black text-lg font-bold">30 days only</span>.
       </p>
 
-      <p class="text-5xl relative lg:text-8xl font-extrabold">
+      <p class="text-5xl relative lg:block flex my-3 lg:text-8xl font-extrabold">
         $500
-        <span class="absolute text-gray-500 decoration-red-500 line-through text-4xl">$1000</span>
+        <span
+          class="absolute -bottom-8 lg:bottom-0 text-gray-500 decoration-red-500 line-through text-4xl"
+          >$1000</span
+        >
       </p>
       <div class="flex flex-col gap-3">
-        <h1 class="font-bold text-xl">This investment unlocks:</h1>
+        <h2 class="font-bold text-xl">This investment unlocks:</h2>
         <ul class="list-disc pl-3">
           <li>Lifetime access to the course content and materials.</li>
           <li>Regular course updates and new content.</li>

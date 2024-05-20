@@ -10,11 +10,11 @@ export default {
     class="mb-52 py-10 flex flex-col gap-20 w-5/6 container mx-auto items-center w-full justify-center"
   >
     <div class="w-full flex flex-col gap-6 items-center">
-      <h1 class="font-bold text-2xl lg:text-6xl">
-        The Ultimate Solution to Master Backend Engineering Step-by-Step
-      </h1>
+      <h2 class="font-bold text-center text-2xl lg:text-6xl">
+        Build real-world projects and <br />deploy to real users.
+      </h2>
       <p class="lg:text-xl text-center">
-        Backend developers are the backbone of the tech industry. By completing this course, you'll
+        Backend engineering is the backbone of the tech industry. By completing this course, you'll
         be equipped to:
       </p>
     </div>
@@ -24,30 +24,30 @@ export default {
         <div
           class="flex flex-col lg:w-1/2 lg:py-20 gap-10 lg:w-3/4 w-full justify-start items-start"
         >
-          <h1 class="font-bold text-xl lg:py-4 lg:text-5xl">Build a Content Automation App</h1>
-          <p class="lg:text-lg text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec ex sed mauris
-            placerat ornare ac at leo. Nulla facilisi. Vivamus tempus varius aliquet. Donec et
-            vestibulum sem, sit amet maximus ipsum.
+          <h3 class="font-bold text-xl lg:py-4 lg:text-5xl">Build a Content Automation App</h3>
+          <p class="lg:text-lg text-start">
+            We will be building <a class="text-red-600" href="https://techpad.ink">TechPad</a> -> An
+            AI assistant head of content for busy founders. This product helps founders handle SEO,
+            Content Marketing, and Publishing on autopilot.
           </p>
         </div>
-        <div class="flex w-full border-4 lg:w-2/4 rounded-xl justify-end">
-          <img alt="logo" class="w-full" src="../assets/techpad.gif" />
+        <div class="flex w-full border-4 border-[#242299] lg:w-2/4 rounded-xl justify-end">
+          <img alt="logo" class="w-full rounded-xl" src="../assets/techpad.gif" />
         </div>
       </div>
 
       <div class="flex flex-col md:flex-row items-center my-10 gap-10">
-        <div class="flex w-full border-4 lg:w-2/4 rounded-xl">
-          <img alt="logo" class="w-full" src="../assets/techpad.gif" />
+        <div class="flex w-full border-4 border-[#242299] lg:w-2/4 rounded-xl">
+          <img alt="logo" class="w-full rounded-xl" src="../assets/techpad.gif" />
         </div>
         <div
           class="flex flex-col lg:w-1/2 lg:py-20 gap-10 lg:w-3/4 w-full justify-start items-start"
         >
-          <h1 class="font-bold text-xl lg:py-4 lg:text-5xl">Build a Social Media Management App</h1>
-          <p class="lg:text-lg text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec ex sed mauris
-            placerat ornare ac at leo. Nulla facilisi. Vivamus tempus varius aliquet. Donec et
-            vestibulum sem, sit amet maximus ipsum.
+          <h3 class="font-bold text-xl lg:py-4 lg:text-5xl">Build a Social Media Management App</h3>
+          <p class="lg:text-lg text-start">
+            We will be building <a class="text-red-600" href="https://profaily.com">Profaily</a> ->
+            A social profile and managment app for internet businesses owners and individuals . This
+            product helps you sync and manage your social media profile in one place.
           </p>
         </div>
       </div>
@@ -56,15 +56,22 @@ export default {
         <div
           class="flex flex-col lg:w-1/2 lg:py-20 gap-10 lg:w-3/4 w-full justify-start items-start"
         >
-          <h1 class="font-bold text-xl lg:py-4 lg:text-5xl">Code 4 Mini Projects</h1>
-          <p class="lg:text-lg text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec ex sed mauris
-            placerat ornare ac at leo. Nulla facilisi. Vivamus tempus varius aliquet. Donec et
-            vestibulum sem, sit amet maximus ipsum.
+          <h3 class="font-bold text-xl lg:py-4 lg:text-5xl">Code 4 Mini Projects</h3>
+          <p class="lg:text-lg text-start">
+            To understand the concepts been taught in the bootcamp better, we will be using the
+            project-based practical approach. This means that you will build lots of mini projects
+            to help foster your understanding of different concepts. Here's a list of
+            <a
+              class="text-red-600"
+              href="https://projects.masteringbackend.com?ref=academy&utm_source=academy"
+            >
+              Backend Projects</a
+            >
+            we can choose from.
           </p>
         </div>
-        <div class="flex w-full border-4 lg:w-2/4 rounded-xl justify-end">
-          <img alt="logo" class="w-full" src="../assets/techpad.gif" />
+        <div class="flex w-full border-4 border-[#242299] lg:w-2/4 rounded-xl justify-end">
+          <img alt="logo" class="w-full rounded-xl" src="../assets/demo_projects.gif" />
         </div>
       </div>
 
@@ -110,9 +117,9 @@ export default {
           </div>
         </div>
         <div class="flex flex-col lg:w-1/2 lg:py-10 gap-10 w-full justify-start items-start">
-          <h1 class="font-bold text-xl lg:text-4xl">
+          <h3 class="font-bold text-xl lg:text-4xl">
             In-Demand Backend Programming Languages and Technologies
-          </h1>
+          </h3>
           <p class="lg:text-lg text-justify">
             JavaScript, Node.js, PHP, Express, Laravel, Nuxt.js, Postgres, Docker, Redis, Kafka
           </p>

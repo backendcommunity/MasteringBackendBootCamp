@@ -1,8 +1,8 @@
 <template>
   <section class="mb-52 text-center p-3 my-5 container mx-auto">
-    <h3 class="text-3xl my-5 uppercase">
+    <h2 class="text-3xl my-5 uppercase">
       {{ title }}
-    </h3>
+    </h2>
 
     <div class="flex flex-col lg:flex-row gap-5 justify-center">
       <div class="" v-for="(testimonial, index) in testimonials" :key="index">

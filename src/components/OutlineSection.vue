@@ -16,8 +16,20 @@ export default {
         </p>
       </div>
     </div>
-    <div class="lg:w-5/6 w-full border-4 bg-gray-800 shadow-lg rounded-3xl p-2 border-gray-500">
-      <img alt="se" class="w-full" src="../assets/vid.svg" />
+    <div
+      class="lg:w-5/6 h-[670px] w-full border-4 bg-[#242299] shadow-lg rounded-3xl border-[#242299]"
+    >
+      <iframe
+        width="100%"
+        class="rounded-3xl"
+        height="100%"
+        src="https://www.youtube.com/embed/2kMSR-4SySs?si=XKwdWViKvR-GDO2S"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
     </div>
   </section>
 </template>

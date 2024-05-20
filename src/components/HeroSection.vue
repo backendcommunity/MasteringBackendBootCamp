@@ -20,15 +20,16 @@ export default {
           </p>
         </div>
         <div class="inline py-5">
-          <button
+          <a
+            href="#pricing"
             class="lg:px-20 px-6 rounded-xl py-3 lg:py-6 font-semibold bg-[#242099] text-white inline"
           >
             Enroll Now
-          </button>
+          </a>
         </div>
       </div>
-      <div class="w-full border-4 bg-gray-800 shadow-lg rounded-3xl p-2 border-gray-500">
-        <img alt="se" class="w-full" src="../assets/vid.svg" />
+      <div class="w-full border-4 bg-[#242299] shadow-lg rounded-3xl p-1 border-[#242299]">
+        <img alt="Become a great backend engineer" class="w-full" src="../assets/vid.svg" />
       </div>
     </div>
   </section>
