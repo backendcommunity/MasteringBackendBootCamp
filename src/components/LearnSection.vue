@@ -38,7 +38,7 @@ export default {
 
       <div class="flex flex-col md:flex-row items-center my-10 gap-10">
         <div class="flex w-full border-4 border-[#242299] lg:w-2/4 rounded-xl">
-          <img alt="logo" class="w-full rounded-xl" src="../assets/techpad.gif" />
+          <img alt="Profaily demo" class="w-full rounded-xl" src="../assets/profaily_demo.gif" />
         </div>
         <div
           class="flex flex-col lg:w-1/2 lg:py-20 gap-10 lg:w-3/4 w-full justify-start items-start"
