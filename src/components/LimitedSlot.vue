@@ -13,7 +13,7 @@ export default {
     </div> -->
 
     <div
-      class="justify-center md:w-2/3 w-full flex flex-col gap-5 p-5 lg:p-20 items-center bg-white rounded-xl border"
+      class="justify-center items-center md:w-2/3 w-full flex flex-col gap-5 p-5 lg:p-20 items-center bg-white rounded-xl border"
     >
       <div class="inline">
         <p class="bg-red-500 text-white lg:text-sm text-xs rounded-full p-3 lg:px-9 inline">
@@ -46,12 +46,13 @@ export default {
           <li>Free Unlimited access to a BackendPrep for 6 month.</li>
         </ul>
       </div>
-      <div class="w-full">
-        <button
-          class="lg:px-10 px-6 rounded-xl py-3 lg:py-1o font-semibold bg-[#242099] text-white inline w-full"
+      <div class="w-full py-5 flex">
+        <a
+          href="https://backend.lemonsqueezy.com/buy/cc2d276d-7a63-4515-82ac-e9b78173920a?embed=1"
+          class="lg:px-10 px-6 rounded-xl py-3 lg:py-5 flex items-center text-3xl justify-center font-semibold bg-[#242099] text-white w-full lemosqueezy-button"
         >
           Enroll Now
-        </button>
+        </a>
       </div>
     </div>
   </section>

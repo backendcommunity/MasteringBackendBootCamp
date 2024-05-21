@@ -19,12 +19,21 @@ export default {
             your backend engineeing career to the next level.
           </p>
         </div>
-        <div class="inline py-5">
+        <div class="inline gap-3 flex py-5">
           <a
             href="#pricing"
             class="lg:px-20 px-6 rounded-xl py-3 lg:py-6 font-semibold bg-[#242099] text-white inline"
           >
             Enroll Now
+          </a>
+
+          <a
+            style="display: flex; justify-content: center; align-items: center"
+            target="_blank"
+            href="https://newsletter.masteringbackend.com/p/becoming-a-great-backend-engineer"
+            class="rounded-xl font-semibold border-[#242099] border text-[#242099] px-5 text-white"
+          >
+            Learn more about GBE
           </a>
         </div>
       </div>
