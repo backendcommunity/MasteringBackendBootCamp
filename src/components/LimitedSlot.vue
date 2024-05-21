@@ -6,13 +6,15 @@ export default {
 <template>
   <section
     id="pricing"
-    class="mb-52 lg:grid flex flex-col gap-10 grid-cols-2 lg:p-10 rounded-2xl bg-white"
+    class="mb-52 flex items-center justify-center flex-col gap-10 lg:p-10 rounded-2xl"
   >
-    <div class="col-span-1 hidden lg:flex">
+    <!-- <div class="col-span-1 hidden lg:flex">
       <img alt="logo" class="lg:w-96 w-52" src="../assets/ball.svg" />
-    </div>
+    </div> -->
 
-    <div class="col-span-1 flex flex-col gap-5 p-5 lg:p-10 items-center rounded-xl border">
+    <div
+      class="justify-center md:w-2/3 w-full flex flex-col gap-5 p-5 lg:p-20 items-center bg-white rounded-xl border"
+    >
       <div class="inline">
         <p class="bg-red-500 text-white lg:text-sm text-xs rounded-full p-3 lg:px-9 inline">
           LIMITED SLOTS AVAILABLE
@@ -35,10 +37,13 @@ export default {
       </p>
       <div class="flex flex-col gap-3">
         <h2 class="font-bold text-xl">This investment unlocks:</h2>
-        <ul class="list-disc pl-3">
+        <ul class="list-disc pl-3 flex flex-col gap-2 text-lg text-gray-700">
           <li>Lifetime access to the course content and materials.</li>
           <li>Regular course updates and new content.</li>
           <li>Exclusive access to a supportive online community.</li>
+          <li>Free Unlimited access to a MB Platform for 6 month.</li>
+          <li>Free Unlimited access to a MB Projects for 6 month.</li>
+          <li>Free Unlimited access to a BackendPrep for 6 month.</li>
         </ul>
       </div>
       <div class="w-full">

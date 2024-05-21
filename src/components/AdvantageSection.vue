@@ -24,12 +24,11 @@ export default {
             <h3 class="font-semibold text-2xl">CS Degree</h3>
 
             <ul class="list-disc flex flex-col gap-3 pl-5">
-              <li>Lifetime access to the course content and materials.</li>
-              <li>Regular course updates and new content.</li>
-              <li>Exclusive access to a supportive online community.</li>
-              <li>Regular course updates and new content.</li>
-              <li>Exclusive access to a supportive online community.</li>
-              <li>Regular course updates and new content.</li>
+              <li>Limited access to the course content and materials.</li>
+              <li>Old curriculum on computer science.</li>
+              <li>No dedicated supportive online community.</li>
+              <li>No practical based learning</li>
+              <li>No structured-based learning and roadmaps</li>
             </ul>
 
             <div class="flex gap-5 flex-col">
@@ -52,12 +51,10 @@ export default {
             <h3 class="font-semibold text-2xl">Other Bootcamps</h3>
 
             <ul class="list-disc flex flex-col gap-3 pl-5">
-              <li>Lifetime access to the course content and materials.</li>
-              <li>Regular course updates and new content.</li>
+              <li>Limited access to the course content and materials.</li>
+              <li>No regular course updates and new content.</li>
               <li>Exclusive access to a supportive online community.</li>
-              <li>Regular course updates and new content.</li>
-              <li>Exclusive access to a supportive online community.</li>
-              <li>Regular course updates and new content.</li>
+              <li>Always theoretical-based learning</li>
             </ul>
 
             <div class="flex gap-5 flex-col">
@@ -87,6 +84,9 @@ export default {
             <li>Regular course updates and new content.</li>
             <li>Exclusive access to a supportive online community.</li>
             <li>Regular course updates and new content.</li>
+            <li>Free Unlimited access to a MB Platform for 6 month.</li>
+            <li>Free Unlimited access to a MB Projects for 6 month.</li>
+            <li>Free Unlimited access to a BackendPrep for 6 month.</li>
           </ul>
         </div>
 

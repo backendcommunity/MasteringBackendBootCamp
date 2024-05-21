@@ -29,7 +29,11 @@ export default {
         </div>
       </div>
       <div class="w-full border-4 bg-[#242299] shadow-lg rounded-3xl p-1 border-[#242299]">
-        <img alt="Become a great backend engineer" class="w-full" src="../assets/vid.svg" />
+        <img
+          alt="Become a great backend engineer"
+          class="w-full rounded-3xl"
+          src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c344877a-7be7-470e-83f4-fa5180741432/becoming_a_great_backend_engineer.png?t=1706354101"
+        />
       </div>
     </div>
   </section>
