@@ -31,7 +31,7 @@ export default {
             style="display: flex; justify-content: center; align-items: center"
             target="_blank"
             href="https://newsletter.masteringbackend.com/p/becoming-a-great-backend-engineer"
-            class="rounded-xl font-semibold border-[#242099] border text-[#242099] px-5 text-white"
+            class="rounded-xl font-semibold border-[#242099] border text-[#242099] px-5"
           >
             Learn more about GBE
           </a>
