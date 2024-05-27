@@ -49,7 +49,7 @@ export default {
         <count-down />
         <first-section />
 
-        <become-section />
+        <!-- <become-section /> -->
         <WhatYouLearn />
         <limited-slot />
         <learn-section />
