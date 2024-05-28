@@ -41,9 +41,11 @@ export default {
           <li>Lifetime access to the course content and materials.</li>
           <li>Regular course updates and new content.</li>
           <li>Exclusive access to a supportive online community.</li>
-          <li>Free Unlimited access to a MB Platform for 6 month.</li>
-          <li>Free Unlimited access to a MB Projects for 6 month.</li>
-          <li>Free Unlimited access to a BackendPrep for 6 month.</li>
+          <li>Learn from Unlimited courses with the MB Platform for 6 month.</li>
+          <li>
+            Practice backend by building real-world projects with MB Projects Pro for 6 month.
+          </li>
+          <li>Ace your backend interviews with BackendPrep Access for 6 month.</li>
         </ul>
       </div>
       <div class="w-full py-5 flex">

@@ -14,8 +14,8 @@ export default {
         Build real-world projects and <br />deploy to real users.
       </h2>
       <p class="lg:text-xl text-center">
-        Backend engineering is the backbone of the tech industry. By completing this course, you'll
-        be equipped to:
+        Backend engineering is the backbone of the tech industry. Building real world projects is
+        the only way to master it. By completing this course, you'll be equipped to:
       </p>
     </div>
 
