@@ -3,7 +3,7 @@ export default {
   name: 'CountDown',
   data() {
     return {
-      days: 24,
+      days: 30,
       hours: 0,
       minutes: 0,
       seconds: 0

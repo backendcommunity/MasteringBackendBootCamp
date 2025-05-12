@@ -9,7 +9,7 @@ export default {
   >
     <p>© Masteringbackend Academy {{ new Date().getFullYear() }}. All rights reserved.</p>
     <p class="text-sm">
-      Designed and built by <a href="curt.studio" class="text-red-800"> curt.studio</a>
+      Designed and built by <a href="https://curt.studio" class="text-red-800"> curt.studio</a>
     </p>
   </section>
 </template>
